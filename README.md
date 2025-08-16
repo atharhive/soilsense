@@ -1,30 +1,31 @@
-# SoilSense Web App
+# SoilSense 🌱
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+<p align="center">
+  <!-- Tech Stack Logos -->
+  <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,python,flask,sqlite" />
+</p>
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/atharhives-projects/v0-soil-sense-web-app-7u)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/JlnovwW0y1I)
+## About  
+SoilSense was built as a **hackathon pitch project** — a web platform designed to showcase an idea around soil health monitoring and data-driven insights for agriculture.  
 
-## Overview
+At the moment, this repo exists as a **prototype** made for the hackathon.  
+👉 I currently don’t have plans to continue development, but I might revisit it in the future.  
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Live Site  
+🚀 [View Demo](https://yoursoilsense.vercel.app/)  
 
-## Deployment
+## Features  
+- Landing page to pitch the idea  
+- Basic project structure & UI with Tailwind CSS  
+- Backend prototype with Flask & SQLite  
 
-Your project is live at:
+## Getting Started  
+Clone the repo and run locally:  
 
-**[https://vercel.com/atharhives-projects/v0-soil-sense-web-app-7u](https://vercel.com/atharhives-projects/v0-soil-sense-web-app-7u)**
+```bash
+git clone https://github.com/atharhive/soilsense.git
+cd soilsense
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/JlnovwW0y1I](https://v0.dev/chat/projects/JlnovwW0y1I)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+pip install -r requirements.txt
+python app.py
+```
